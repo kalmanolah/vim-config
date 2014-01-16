@@ -55,3 +55,9 @@
 [submodule "bundle/vim-airlineish"]
 	path = bundle/vim-airlineish
 	url = https://github.com/paranoida/vim-airlineish.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
