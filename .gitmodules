@@ -1,0 +1,57 @@
+[submodule "bundle/vim-trailing-whitespace"]
+	path = bundle/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/detectindent"]
+	path = bundle/detectindent
+	url = https://github.com/ciaranm/detectindent.git
+[submodule "bundle/ctrlp-filetype.vim"]
+	path = bundle/ctrlp-filetype.vim
+	url = https://github.com/endel/ctrlp-filetype.vim.git
+[submodule "bundle/colorizer"]
+	path = bundle/colorizer
+	url = https://github.com/lilydjwg/colorizer.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "bundle/vim-gtfo"]
+	path = bundle/vim-gtfo
+	url = https://github.com/justinmk/vim-gtfo.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = https://github.com/klen/python-mode.git
+[submodule "bundle/quickfixsigns"]
+	path = bundle/quickfixsigns
+	url = https://github.com/tomtom/quickfixsigns_vim.git
+[submodule "bundle/tComment"]
+	path = bundle/tComment
+	url = https://github.com/vim-scripts/tComment.git
+[submodule "bundle/Mark"]
+	path = bundle/Mark
+	url = https://github.com/vim-scripts/Mark--Karkat.git
+[submodule "bundle/vim-indent-object"]
+	path = bundle/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
+[submodule "bundle/text-object-left-and-right"]
+	path = bundle/text-object-left-and-right
+	url = https://github.com/vim-scripts/text-object-left-and-right.git
+[submodule "bundle/vim-visual-star-search"]
+	path = bundle/vim-visual-star-search
+	url = https://github.com/bronson/vim-visual-star-search.git
+[submodule "bundle/vim-rooter"]
+	path = bundle/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-puppet"]
+	path = bundle/vim-puppet
+	url = https://github.com/rodjek/vim-puppet.git
+[submodule "bundle/vim-airlineish"]
+	path = bundle/vim-airlineish
+	url = https://github.com/paranoida/vim-airlineish.git
