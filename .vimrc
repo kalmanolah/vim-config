@@ -74,3 +74,7 @@ if has("gui_running")
 " but always show the tabline (window otherwise resizes when first showing tabline)
     set showtabline=2
 endif
+
+" get rid of vim swap files by putting them in .vim
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//

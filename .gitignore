@@ -1,2 +1,6 @@
 bundle/tags
 .netrwhist
+swap/*
+!swap/.gitkeep
+backup/*
+!backup/.gitkeep
