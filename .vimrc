@@ -27,7 +27,10 @@ let g:airline_theme = "tomorrow"
 
 " pymode settings
 let g:pymode_python = "python3"
-let g:pymode_lint_chekers = ['pyflakes', 'pep8', 'mccabe']
+let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
+
+" disable syntastic for python
+let g:syntastic_ignore_files = ['\.py$']
 
 colorscheme monokai               " set color scheme
 syntax on                         " enable syntax highlighting
@@ -73,6 +76,8 @@ if has("gui_running")
     set guioptions+=c
 " but always show the tabline (window otherwise resizes when first showing tabline)
     set showtabline=2
+" set guifont
+    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
 endif
 
 " get rid of vim swap files by putting them in .vim
