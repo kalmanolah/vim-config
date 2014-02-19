@@ -67,3 +67,6 @@
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/numbers.vim"]
+	path = bundle/numbers.vim
+	url = https://github.com/myusuf3/numbers.vim.git
