@@ -28,6 +28,11 @@ let g:airline_theme = "tomorrow"
 " pymode settings
 let g:pymode_python = "python3"
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
+let g:pymode_lint_cwindow = 1
+" disable pymode holding
+let g:pymode_folding = 0
+" enable rope script
+let g:pymode_rope = 1
 
 " disable syntastic for python
 let g:syntastic_ignore_files = ['\.py$']
@@ -44,7 +49,7 @@ set shortmess=atI                 " shorten messages and don't show intro
 set wrap                          " soft wrap long lines
 set ruler                         " show current position at bottom
 set mouse=a                       " try to use a mouse in the console
-set textwidth=80                  " we like 80 columns
+set textwidth=120                 " we like 120 columns
 set showmatch                     " show matching brackets
 set formatoptions=tcrql           " t - autowrap to textwidth
                                   " c - autowrap comments to textwidth
