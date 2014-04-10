@@ -60,7 +60,7 @@ set tabstop=8                     " for proper display of files with tabs
 set shiftround                    " always round indents to multiple of shiftwidth
 set copyindent                    " use existing indents for new indents
 set preserveindent                " save as much indent structure as possible
-set tiemoutlen=2000               " extend timeout length
+set timeoutlen=2000               " extend timeout length
 
 if has("gui_running")
 " GUI is running or is about to start.
