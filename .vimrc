@@ -32,6 +32,9 @@ let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
 " disable syntastic for python
 let g:syntastic_ignore_files = ['\.py$']
 
+" enable php refactoring plugin
+let g:php_refactor_command = 'php ~/.vim/assets/php-refactor.phar'
+
 colorscheme monokai               " set color scheme
 syntax on                         " enable syntax highlighting
 set number                        " show line numbers
@@ -57,6 +60,7 @@ set tabstop=8                     " for proper display of files with tabs
 set shiftround                    " always round indents to multiple of shiftwidth
 set copyindent                    " use existing indents for new indents
 set preserveindent                " save as much indent structure as possible
+set tiemoutlen=2000               " extend timeout length
 
 if has("gui_running")
 " GUI is running or is about to start.
