@@ -29,6 +29,7 @@ let g:airline_theme = "tomorrow"
 let g:pymode_python = "python3"
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
 let g:pymode_lint_cwindow = 1
+let g:pymode_lint_ignore = "E501,W601"
 " disable pymode holding
 let g:pymode_folding = 0
 " enable rope script

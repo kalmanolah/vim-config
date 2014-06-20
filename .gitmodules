@@ -73,3 +73,9 @@
 [submodule "bundle/vim-php-refactoring"]
 	path = bundle/vim-php-refactoring
 	url = https://github.com/vim-php/vim-php-refactoring.git
+[submodule "bundle/improvedft"]
+	path = bundle/improvedft
+	url = https://github.com/chrisbra/improvedft.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
