@@ -41,6 +41,7 @@ let g:syntastic_ignore_files = ['\.py$']
 " enable php refactoring plugin
 let g:php_refactor_command = 'php ~/.vim/assets/php-refactor.phar'
 
+set t_Co=256                      " set 256 color mode
 colorscheme monokai               " set color scheme
 syntax on                         " enable syntax highlighting
 set number                        " show line numbers
