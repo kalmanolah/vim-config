@@ -94,3 +94,6 @@ endif
 " get rid of vim swap files by putting them in .vim
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
+
+" .md files are markdown
+au BufNewFile,BufRead *.md setlocal ft=markdown
